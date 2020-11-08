@@ -1,45 +1,142 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# [Mind Gym Project] (Website link will go here)
 
-Welcome NunoCos,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+![](print screen of the responsive website goes here)
 
-## Gitpod Reminders
+Hello, welcome to my first very own project, the aim of my project is to deliver a different type of gym webpage. I will be using CSS and HTML.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+##Index
 
-A blue button should appear to click: *Make Public*,
+* [Description](#description)
+* [Testimonials](#testimonials)
+* [UX and Features](#ux-and-features)
+* [Future Improvements](#future-improvements)
+* [Changes](#changes)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
+* [Support](#support)
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## <a name="description">Description</a>
 
-A blue button should appear to click: *Make Public*,
+The mind Gym is a webpage where his target audience is a completely different audience from the normal gym, this is not focused on the physical condition but more on the mind side, which with the current pandemic we all need to have all support we can get.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## <a name="testimonials">Testimonials</a>
 
-## Updates Since The Instructional Video
+* "I want to have different types of classes"
+* "I don't want to be having a yoga class in the same place as the pumping iron people go"
+* "I would like to have a place where I can ease my mind"
+* "I want to be able to attend a class without having to think what routine should I follow"
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## <a name="ux-and-features">UX and Features</a>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+This website is designed to have an approach that induces calm, hence I opt for bright colors like whites and greys.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### 1. Strategy
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### 2. Scope
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### 3. Structure
 
---------
 
-Happy coding!
+#### 4. Skeleton
+
+* Wireframe was created using [Balsamiq](https://balsamiq.com/)
+
+###### Home Page
+
+![] (image of home wireframe from images file)
+
+###### Gallery Page
+
+![] (image of Gallery wireframe from images file)
+
+###### Contact Us
+
+![] (image of Contact Us wireframe from images file)
+
+#### 5. Surface
+
+##### Design
+
+* ###### Colour Scheme
+
+
+* ###### Letter type
+
+
+* ###### Imagery
+
+
+* ###### Icons
+
+
+## <a name="future-improvements">Future Improvements</a>
+
+
+
+## <a name="changes">Changes</a>
+
+
+
+## <a name="technologies-used">Technologies Used</a>
+
+##### Languages Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+
+##### Frameworks, Libraries & Programs Used
+
+
+## <a name="testing">Testing</a>
+
+##### Tests deployed
+
+
+##### Validation
+
+[W3C Markup Validator](https://validator.w3.org/)
+
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+
+##### Errors/Bugs During Device Testing
+
+
+## <a name="deployment">Deployment</a>
+
+##### GitHub Pages
+
+Describe github pages process here
+
+## <a name="credits">Credits</a>
+
+##### Media
+* Hero image sourced from [Unsplash](link to photo here)
+
+##### Code Snippets
+
+
+## <a name="acknowledgements">Acknowledgements</a>
+
+I would like to thank my mentor, **Spencer Barriball**, for his help on this project and for providing me some tools that made my project easier,
+**Slack Community** for their assistance with minor coding issues and **Jim Lynx** for hosting the MS1 planning session that really helped me out.
+
+
+## <a name="support">Support</a>
+
+For any issues or information, please email me on nuno18_9@hotmail.com
+
+
+Thank you for the time reviewing my Readme file and hope you enjoy my project.
