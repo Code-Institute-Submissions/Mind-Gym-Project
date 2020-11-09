@@ -6,27 +6,12 @@
 Hello, welcome to my first very own project, the aim of my project is to deliver a different type of gym webpage. I will be using CSS and HTML.
 
 ---
-## Index
-
-* [Description](#description)
-* [Testimonials](#testimonials)
-* [UX and Features](#ux-and-features)
-* [Future Improvements](#future-improvements)
-* [Changes](#changes)
-* [Technologies Used](#technologies-used)
-* [Testing](#testing)
-* [Deployment](#deployment)
-* [Credits](#credits)
-* [Acknowledgements](#acknowledgements)
-* [Support](#support)
-
----
-## <a name="description">Description</a>
+## Description
 
 The mind Gym, that is a ficticious gym, is a webpage where his target audience is a completely different audience from the normal gym, this is not focused on the physical condition but more on the mind side, which with the current pandemic we all need to have all support we can get.
 
 ---
-## <a name="testimonials">Testimonials</a>
+## Testimonials
 
 * "I want to have different types of classes"
 * "I don't want to be having a yoga class in the same place as the pumping iron people go"
@@ -34,7 +19,7 @@ The mind Gym, that is a ficticious gym, is a webpage where his target audience i
 * "I want to be able to attend a class without having to think what routine should I follow"
 
 ---
-## <a name="ux-and-features">UX and Features</a>
+## UX and Features
 
 This website is designed to have an approach that induces calm, hence I opt for bright colors like whites and greys.
 
@@ -111,7 +96,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ---
 
-## <a name="future-improvements">Future Improvements</a>
+## Future Improvements
 
 * Able to sign up to the gym via website
 * Connect all forms so that they can reach the email inbox
@@ -120,11 +105,11 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ---
 
-## <a name="changes">Changes</a>
+## Changes
 
 ---
 
-## <a name="technologies-used">Technologies Used</a>
+## Technologies Used
 
 
 ##### Languages Used
@@ -147,7 +132,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ---
 
-## <a name="testing">Testing</a>
+## Testing
 
 ##### Tests deployed
 
@@ -164,7 +149,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ---
 
-## <a name="deployment">Deployment</a>
+## Deployment
 
 ##### GitHub Pages
 
@@ -181,7 +166,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 11. The Download option gives you a link so that you can download the zip file so that you can unzip it in your local machine
 ---
 
-## <a name="credits">Credits</a>
+## Credits
 
 ##### Media
 * Hero image sourced from [Unsplash](link to photo here)
@@ -196,14 +181,14 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ---
 
-## <a name="acknowledgements">Acknowledgements</a>
+## Acknowledgements
 
 I would like to thank my mentor, **Spencer Barriball**, for his help on this project and for providing me some tools that made my project easier,
 **Slack Community** for their assistance with minor coding issues and **Jim Lynx** for hosting the MS1 planning session that really helped me out.
 
 ---
 
-## <a name="support">Support</a>
+## Support
 
 For any issues or information, please email me on nuno18_9@hotmail.com
 
