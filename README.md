@@ -169,7 +169,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 ## Credits
 
 ##### Media
-* Hero image sourced from [Unsplash](link to photo here)
+* Hero image sourced from [Unsplash](https://unsplash.com/photos/nKCtkaW4JU4)
 
 ##### Code Snippets
 
@@ -178,6 +178,12 @@ The footer has links to social media accounts, at the moment linking to my accou
   * Code for hero image and animation from the "Love Running" lessons and adapted to own project
   * Code for site wide alert and main button from "Whiskey Drop" lessons and adapted to own project
   * Influence from "CV Resume" lessons and adapted to own project
+
+
+* ###### [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
+
+    * Code for Fullpage background, based from whiskey drop Code Institute lessons and adapted to own project
+
 
 ---
 

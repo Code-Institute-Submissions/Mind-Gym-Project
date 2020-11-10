@@ -10,36 +10,42 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a class="navbar-brand" href="">The Mind Gym</a>
+<!--navbar-->
+<!--navbar structure taken from whiskey drop webpage from Code Institute Lessons-->
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-light  navbar-expand-sm">
+            <a class="navbar-brand" href="/index.html">The Mind Gym</a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Tooglenavigation">
-        <span class="navbar-toggler-icon"></span></button>
-        
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/gallery">Gallery</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/contactus">Contact Us</a></li>
-            </ul>
-        </div>
-        
-    </nav>
-    <article class="container mt-3"> 
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Tooglenavigation">
+            <span class="navbar-toggler-icon"></span></button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/gallery.html">Gallery</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </div>
+    <!--Callout structure taken from whiskey drop webpage from Code Institute Lessons-->
+    <div class="container-fluid callout-container"> 
             <!-- Callout -->
             <div class="row">
                 <div class="col-12">   
                     <section class="callout jumbotron text-center">
-                        <h1>Callout</h1>
+                        <h1 class="jumbotron-header">The Mind Gym</h1>
                         <p>We have great Offers waiting for you</p>
-                        <p><a class="btn btn-lg btn-light" href="/contactus">Contact Us</a></p>
+                        <p><a class="btn btn-lg btn--cta btn--blue" href="/contactus">Contact Us</a></p>
                     </section>
                 </div>
             </div>
+    </div>
             <!-- /callout -->
 
             <!-- Membership options -->
-            
+    <div class="container membership-container"> 
             <section class="membership">
                 <div class="row">
                     <div class="col-12 my-5">
@@ -68,13 +74,13 @@
                 </div>
             </section>
             <!-- /Membership options -->
+    </div>
             <!-- Contact Information -->
             <footer>
                 <p>address</p>
                 <p>social media accounts</p>
             </footer>
             <!-- /Contact Information -->
-    </article>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

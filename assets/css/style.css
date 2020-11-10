@@ -2,4 +2,85 @@ body {
     font-family: "Exo", sans-serif
 }
 
+/*callout*/
 
+.callout-container {
+    height: 100vh;
+    background: url("../images/yoga.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.membership-container {
+
+}
+
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    color: #091540;
+}
+    
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #091540;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.jumbotron p {
+    color: #40798C;
+    font-weight: bold;
+}
+
+/*Buttons*/
+
+.btn--cta{
+    border-radius: 25px;
+    width: 160px;
+}
+
+.btn--blue {
+    color: white;
+    background-color: #091540;
+    border-color: #091540;
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    color: white;
+    background-color: #40798C;
+    border-color: #40798C;
+}
