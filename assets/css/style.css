@@ -1,5 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+
 body {
-    font-family: "Exo", sans-serif
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+
+hr {
+    display: none;
 }
 
 /*callout*/
@@ -15,10 +27,30 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
 }
 
-.membership-container {
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
 
+/*hr*/
+
+hr {
+    display:;
+}
+
+
+.membership-container {
+    padding:0;
 }
 
 /*Navbar*/
@@ -35,14 +67,33 @@ body {
     margin-bottom: 0;
     border: 0;
     width:100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.01);
     z-index: 1;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(9,21,64,.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(9,21,64,1);
+    letter-spacing: 4px;
+}
+
+.navbar-brand {
+    font-size: 180%;
+    margin-left: 30px;
+}
+
+.nav-item{
     color: #091540;
 }
-    
+
+
 .navbar .navbar-toggler {
     border: 0;
 }
+
 
 
 
@@ -83,4 +134,65 @@ body {
     color: white;
     background-color: #40798C;
     border-color: #40798C;
+}
+
+/*Membership offers*/
+
+#membership {
+    background-image: url(../images/membership.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#membership div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 32.80%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 4px;
+}
+
+
+/*Footer*/
+/*Footer section taken from love running project*/
+
+footer {
+  height: 150px;
+  margin: 100px;
+}
+
+.social-network li {
+  display: inline;
+}
+
+.social-network i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777
+}
+
+
+/*Media query*/
+
+@media screen and (max-width: 1393px){
+    #membership div{
+        width: 100%;
+        clear: both;
+        height: 150px;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: #fff;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 943px){
+
 }

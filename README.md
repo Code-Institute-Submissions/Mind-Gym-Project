@@ -170,6 +170,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ##### Media
 * Hero image sourced from [Unsplash](https://unsplash.com/photos/nKCtkaW4JU4)
+* Membership image sourced from [Unplash](https://unsplash.com/photos/dXrAfc9fDuI)
 
 ##### Code Snippets
 
