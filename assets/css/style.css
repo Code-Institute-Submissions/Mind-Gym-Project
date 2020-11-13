@@ -14,6 +14,23 @@ hr {
     display: none;
 }
 
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    
+    
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 /*callout*/
 
 .callout-container {
@@ -41,13 +58,6 @@ hr {
         transform: scale(1);
     }
 }
-
-/*hr*/
-
-hr {
-    display:;
-}
-
 
 .membership-container {
     padding:0;
@@ -136,6 +146,13 @@ hr {
     border-color: #40798C;
 }
 
+.btn-light {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+
 /*Membership offers*/
 
 #membership {
@@ -158,13 +175,25 @@ hr {
     margin: 4px;
 }
 
+/*Membership section taken from my resume project and adapted to my project*/
+
+.bg-color-services {
+    background-color: #fff;
+
+}
+
 
 /*Footer*/
-/*Footer section taken from love running project*/
+/*Footer section taken from love running project and from myresume bootstrap mini project*/
 
 footer {
-  height: 150px;
-  margin: 100px;
+  background-color: #091540;
+  color: #fafafa;
+  margin-top: 150px;
+}
+
+.social-network {
+    padding-bottom: 15px;
 }
 
 .social-network li {
@@ -172,10 +201,18 @@ footer {
 }
 
 .social-network i {
-  font-size: 160%;
+  font-size: 30px;
   margin: 1%;
   padding: 5%;
-  color: #777777
+  color: #fafafa;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-network i:hover {
+    color: #40798C;
 }
 
 
@@ -191,8 +228,4 @@ footer {
         border-color: #fff;
         padding: 0;
     }
-}
-
-@media screen and (max-width: 943px){
-
 }

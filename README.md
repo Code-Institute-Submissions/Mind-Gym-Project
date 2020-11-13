@@ -107,6 +107,8 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ## Changes
 
+* Added Services section as it was not originally intended to be present, after making a more analytical analysis of the type of content the webpage should offer.
+* Added background image to the Membership section to be more visually appealing.
 ---
 
 ## Technologies Used
@@ -147,6 +149,14 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ##### Errors/Bugs During Device Testing
 
+###### Devices Used
+    * Android phone - Chrome browser
+    * Macbook Pro 13" - Safari Browser
+    * Ipad - Safari
+    * Lenovo Windows Laptop - Chrome and Microsoft Edge
+
+###### Bugs found
+    *membership section not displaying information horizontally
 ---
 
 ## Deployment
@@ -176,16 +186,31 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 * ###### [Code Institute](https://codeinstitute.net/) 
 
-  * Code for hero image and animation from the "Love Running" lessons and adapted to own project
-  * Code for site wide alert and main button from "Whiskey Drop" lessons and adapted to own project
-  * Influence from "CV Resume" lessons and adapted to own project
+  * Code for animation from the "Love Running" lessons and adapted to own project
+  * Code for Hero image from "Whiskey Drop" lessons and adapted to own project
+  * Code for Services section from "Whiskey drop" lessons and adpated to own project
+  * Code for Footer section taken from "My resume" bootstrap mini project and "Love running" and adapted to own project
+  * Code for Membership section from "Love Running" lessons and adapted to own project
+
 
 
 * ###### [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 
     * Code for Fullpage background, based from whiskey drop Code Institute lessons and adapted to own project
 
+##### Other References
 
+* ###### [Fake Address Generator](https://www.fakeaddressgenerator.com/All_countries/address/country/Ireland)
+    * Fake Address Generator used to generate a ficticius address for the gym
+
+* ###### [Mayo Clinc](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/pilates-for-beginners/art-20047673)
+    *Description of Pilates class
+
+* ###### [Yoga journal](https://www.yogajournal.com/meditation/yoga-questions-answered)
+    * Description of Yoga
+
+* ###### [Mental Health Foundation](https://www.mentalhealth.org.uk/a-to-z/m/mindfulness)
+    * Description of Yoga        
 ---
 
 ## Acknowledgements
