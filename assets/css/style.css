@@ -215,6 +215,10 @@ footer {
     color: #40798C;
 }
 
+.gmap_canvas {
+    padding-bottom: 15px;
+}
+
 
 /*Media query*/
 

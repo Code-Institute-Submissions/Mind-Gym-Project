@@ -198,6 +198,9 @@ The footer has links to social media accounts, at the moment linking to my accou
 
     * Code for Fullpage background, based from whiskey drop Code Institute lessons and adapted to own project
 
+* ##### [Google Maps extention](https://www.embedgooglemap.net/)
+    * Code for Google maps taken from this source but adapted to own project
+
 ##### Other References
 
 * ###### [Fake Address Generator](https://www.fakeaddressgenerator.com/All_countries/address/country/Ireland)
