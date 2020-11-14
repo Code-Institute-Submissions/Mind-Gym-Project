@@ -220,19 +220,7 @@ footer {
 }
 
 
-/*Media query*/
 
-@media screen and (max-width: 1393px){
-    #membership div{
-        width: 100%;
-        clear: both;
-        height: 150px;
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-color: #fff;
-        padding: 0;
-    }
-}
 
 
 /*Contact Form*/
@@ -304,4 +292,18 @@ footer {
 
 #textarea:hover {
     border-color: #40798C;
+}
+
+/*Media query*/
+
+@media screen and (max-width: 1393px){
+    #membership div{
+        width: 100%;
+        clear: both;
+        height: 150px;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: #fff;
+        padding: 0;
+    }
 }
