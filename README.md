@@ -17,6 +17,7 @@ The mind Gym, that is a ficticious gym, is a webpage where his target audience i
 * "I don't want to be having a yoga class in the same place as the pumping iron people go"
 * "I would like to have a place where I can ease my mind"
 * "I want to be able to attend a class without having to think what routine should I follow"
+* "I think the website should reflect the type of activity as Yoga, Mindfulness and Pilates all induce calm"
 
 ---
 ## UX and Features
@@ -44,7 +45,33 @@ ambient that people will find at the gym.
 
 ---
 #### 2. Scope
+The scope of the project was to include some influences from what the possible users described as a user friendly website and what they wish to observe on the type of content on this website.
+The website is prepared as a mobile first approach that should be responsive in all devices and adapt to all browsers.
 
+#### Current Features
+
+* Navbar
+    * Large sized font used to have a very good visibility of the content
+    * Menu Icon for the Navbar when opened on mobile devices to respect convention when it comes to mobile websites
+    * Contact Form easy to follow
+    * Logo and Home buttons redirecting to main page to give more options to the user
+
+* Homepage
+    * Animation image to give visual impact to users and to pass on the message of the type of website
+    * Services provided section to give the user the full list of Services
+    * Membership sign up options
+    * Link to social media accounts
+    * Address and Google maps link to give more information to users
+
+* Contact form
+    * Easy to read contact form
+    * Ability to select what membership option they wish to enquire or general query with free text.
+    * Visible submit button
+    * Background image selected to give same feeling and layout to the webpage
+
+* Gallery section
+    * Simple gallery section with images of the Classes and events being doesn
+    * Responsive design to all devices
 ---
 #### 3. Structure
 The website was designed with simple layout so that it is easy to navigate and intuitive to all customers. There are essential pages on the navigation bar, which are: 
@@ -138,6 +165,18 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ##### Tests deployed
 
+* Tested Form text fields, tried to submit without filling name, didn't allow to submit form
+* Tested Form text fields, tried to submit without filling email, didn't allow to submit form
+* Tested Form text fields, tried to submit without introducing proper email, didn't allow to submit form
+* Tested Form radio buttons, tried to submit without introducing any option, didn't allow to submit form
+* Tested Free text area on form, tried to submit without introducing any text, doesn't allow to submit form
+* Tested Navigation bar, tested home button redirects to index.html page
+* Tested contact us navbar button redirects to contact-us.html page
+* Tested contact us button in callout section, redirects to contact-us.html page
+* Tested clicking Logo, redirect to index.html page
+* Tested Sign-up buttons on membership, all displaying the modal selected
+
+
 
 ##### Validation
 
@@ -156,7 +195,10 @@ The footer has links to social media accounts, at the moment linking to my accou
     * Lenovo Windows Laptop - Chrome and Microsoft Edge
 
 ###### Bugs found
-    *membership section not displaying information horizontally
+    * Membership section not displaying information horizontally
+    * Text for radio buttons not aligned and mixing with text area
+    * Found that on Device Iphone5/SE on Dev tools the menu bottom goes out of allignment considering not relevant
+    * Found that on resolution lower than 320px a white bar appears on the right side, do not consider this as a issue as very low number of devices have this screen size.
 ---
 
 ## Deployment
@@ -180,7 +222,8 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ##### Media
 * Hero image sourced from [Unsplash](https://unsplash.com/photos/nKCtkaW4JU4)
-* Membership image sourced from [Unplash](https://unsplash.com/photos/dXrAfc9fDuI)
+* Membership image sourced from [Unsplash](https://unsplash.com/photos/dXrAfc9fDuI)
+* Contact Form background image sourced rom [Unsplash](https://unsplash.com/photos/6KkYYqTEDwQ)
 
 ##### Code Snippets
 
@@ -191,6 +234,7 @@ The footer has links to social media accounts, at the moment linking to my accou
   * Code for Services section from "Whiskey drop" lessons and adpated to own project
   * Code for Footer section taken from "My resume" bootstrap mini project and "Love running" and adapted to own project
   * Code for Membership section from "Love Running" lessons and adapted to own project
+  * Code for Contact Form from "Love Running" Lessons and adapted to own project
 
 
 
@@ -198,8 +242,12 @@ The footer has links to social media accounts, at the moment linking to my accou
 
     * Code for Fullpage background, based from whiskey drop Code Institute lessons and adapted to own project
 
-* ##### [Google Maps extention](https://www.embedgooglemap.net/)
+* ###### [Google Maps extention](https://www.embedgooglemap.net/)
     * Code for Google maps taken from this source but adapted to own project
+
+
+* ###### [Stack Overflow](https://stackoverflow.com/questions/13509883/how-to-vertically-align-a-html-radio-button-to-its-label/13510184)
+    * Code for resolution of align the text on radio buttons 
 
 ##### Other References
 

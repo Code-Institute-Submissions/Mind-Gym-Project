@@ -233,3 +233,75 @@ footer {
         padding: 0;
     }
 }
+
+
+/*Contact Form*/
+
+.form-section {
+    clear: both;
+    background: url("../images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.signup-form {
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  padding: 30px;
+}
+
+.signup-form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin:5px 0 20px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover{
+  border-color: #40798C;
+}
+
+.join-button {
+  margin-top: 50px;
+  border-radius: 12px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+}
+
+.join-button:hover{
+  background-color: #40798C;
+}
+
+.text {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#textarea {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 125px;
+    margin:5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+#textarea:hover {
+    border-color: #40798C;
+}
