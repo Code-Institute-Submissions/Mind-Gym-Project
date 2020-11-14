@@ -125,7 +125,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ## Future Improvements
 
-* Able to sign up to the gym via website
+* Able to sign up to the gym via website and select type of membership
 * Connect all forms so that they can reach the email inbox
 * Create an Associate page so that the customer can manage their membership
 * Create a video section with exercises for paying customers
@@ -136,6 +136,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 * Added Services section as it was not originally intended to be present, after making a more analytical analysis of the type of content the webpage should offer.
 * Added background image to the Membership section to be more visually appealing.
+* Added modal sign-up to all sections in the home page
 ---
 
 ## Technologies Used
@@ -199,6 +200,7 @@ The footer has links to social media accounts, at the moment linking to my accou
     * Text for radio buttons not aligned and mixing with text area
     * Found that on Device Iphone5/SE on Dev tools the menu bottom goes out of allignment considering not relevant
     * Found that on resolution lower than 320px a white bar appears on the right side, do not consider this as a issue as very low number of devices have this screen size.
+    * Found that on Navbar if class Active displayed on the li the github pages wouldn't target the support pages
 ---
 
 ## Deployment
