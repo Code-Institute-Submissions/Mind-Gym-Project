@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -27,24 +34,42 @@ hr {
 /*callout idea is based on Whiskey drop and Love running projects*/
 .callout-container {
     height: 100vh;
-    background: url("../images/yoga.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("../images/yoga.jpg") no-repeat center center fixed;
     background-size: cover;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items: center;
-    justify-content: center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; 
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation-name: hero-zoom;
+            animation-name: hero-zoom;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; 
+}
+@-webkit-keyframes hero-zoom {
+    from{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    to{
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
 }
 @keyframes hero-zoom {
     from{
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
     }
 }
 .membership-container {
@@ -124,7 +149,12 @@ hr {
     margin-top: 1.5rem;
 }
 
-/*Membership offers*/
+.bg-color-services {
+    background-color: #fff;
+}
+
+/*Membership section taken from love Running lessons and adapted to my project*/
+
 #membership {
     background-image: url(../images/membership.jpg);
     background-repeat: no-repeat;
@@ -144,11 +174,9 @@ hr {
     text-align: center;
     display: inline-table;
     padding-left: 1px;
+    
 }
-/*Membership section taken from my resume project and adapted to my project*/
-.bg-color-services {
-    background-color: #fff;
-}
+
 /*Footer*/
 /*Footer section taken from love running project and from myresume bootstrap mini project*/
 footer {
@@ -176,6 +204,8 @@ footer {
 .social-network i:hover {
     color: #40798C;
 }
+
+
 
 /*Contact Form*/
 .form-section {
@@ -238,9 +268,19 @@ footer {
     border-color: #40798C;
 }
 
-/*Images based on Love running project with adaption to my own project*/
+/*Images page code taken from Start Bootsrap and adpated to own project*/
 
 
 .images{
     margin-top: 12rem;
+}
+
+/*404 error page*/
+
+.invalid {
+    font-size: 1.5rem;
+}
+
+.link {
+    font-size: 1.8rem;
 }

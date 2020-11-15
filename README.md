@@ -1,9 +1,9 @@
 # [Mind Gym Project](https://nunocos.github.io/Mind-Gym-Project/)
 
 
-![](print screen of the responsive website goes here)
+![](assets/images/Responsive.JPG)
 
-Hello, welcome to my first very own project, the aim of my project is to deliver a different type of gym webpage. I will be using CSS and HTML.
+Hello, welcome to my first very own project, the aim of my project is to deliver a different type of gym webpage. I will be using CSS and HTML. You can check the full project [here](https://nunocos.github.io/Mind-Gym-Project/index.html)
 
 ---
 ## Description
@@ -177,6 +177,8 @@ The footer has links to social media accounts, at the moment linking to my accou
 * Tested clicking Logo, redirect to index.html page
 * Tested Sign-up buttons on membership, all displaying the modal selected
 * Tested modal in all devices, all adjusting to the device.
+* Tested all external links, all opening in new tab
+* CSS was put through a [CSS Autoprefixer](https://autoprefixer.github.io/) and the changes were added to the website
 
 
 
@@ -189,6 +191,11 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * PASS
+
+
+[Google's Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
+* All pages passed the test, all pages mobile friendly.
+
 
 ##### Errors/Bugs During Device Testing
 
@@ -210,7 +217,11 @@ The footer has links to social media accounts, at the moment linking to my accou
 ###### [W3C Markup Validator](https://validator.w3.org/)
 * "The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment" - Solution: was using to many hyphens on the comments
 * "Start tag body seen but an element of the same type was already open." - Solution: Empty space between head tag and body tag was causing this
+* Using Iframes tag was also causing an error as it was showing that it was deprecated solution, removed Google maps extention completely from footer.
 ---
+
+###### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* One closing tag causing error, removed tag, all tests passed.
 
 ## Deployment
 
@@ -241,6 +252,7 @@ The footer has links to social media accounts, at the moment linking to my accou
     * [Image5](https://unsplash.com/photos/ZARfCYDaVg0)
     * [image7](https://unsplash.com/photos/YmqWafQKuRY)
     * [Image8](https://unsplash.com/photos/DFtjXYd5Pto)
+* 404 image taken from [Unsplash](https://unsplash.com/photos/JpTY4gUviJM)
 
 ##### Code Snippets
 
@@ -269,6 +281,10 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 * ###### [Stack Overflow](https://stackoverflow.com/questions/13509883/how-to-vertically-align-a-html-radio-button-to-its-label/13510184)
     * Code for resolution of align the text on radio buttons 
+
+* ###### [Slack](https://slack.com/intl/en-gb/)
+
+  * Guidance on creating a custom 404 error page from Karina Finegan and Anthony O'Brien - [Here](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1598280091096500)
 
 ##### Other References
 
