@@ -151,13 +151,13 @@ The footer has links to social media accounts, at the moment linking to my accou
 ##### Frameworks, Libraries & Programs Used
 
 * [Git](https://git-scm.com/)
+* [Bootsrap] (https://getbootstrap.com/)
 * [GitHub](https://github.com/)
 * [Balsamiq](https://balsamiq.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Coolors](https://coolors.co/ebf5df-bad4aa-d4d4aa-edb458-e8871e)
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-* [TinyPNG](https://tinypng.com/)
 * [Autoprefixer CSS](https://autoprefixer.github.io/)
 
 ---
@@ -176,16 +176,19 @@ The footer has links to social media accounts, at the moment linking to my accou
 * Tested contact us button in callout section, redirects to contact-us.html page
 * Tested clicking Logo, redirect to index.html page
 * Tested Sign-up buttons on membership, all displaying the modal selected
+* Tested modal in all devices, all adjusting to the device.
 
 
 
 ##### Validation
 
 [W3C Markup Validator](https://validator.w3.org/)
-
+* Index page - PASS
+* Contact-us page - PASS
+* Gallery page - PASS
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-
+* PASS
 
 ##### Errors/Bugs During Device Testing
 
@@ -201,6 +204,12 @@ The footer has links to social media accounts, at the moment linking to my accou
     * Found that on Device Iphone5/SE on Dev tools the menu bottom goes out of allignment considering not relevant
     * Found that on resolution lower than 320px a white bar appears on the right side, do not consider this as a issue as very low number of devices have this screen size.
     * Found that on Navbar if class Active displayed on the li the github pages wouldn't target the support pages
+    * White bar on the top of index page on any screens, readjusted Keyframes to transform from 1 to 1.1 and not .9 to 1.
+    *
+
+###### [W3C Markup Validator](https://validator.w3.org/)
+* "The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment" - Solution: was using to many hyphens on the comments
+* "Start tag body seen but an element of the same type was already open." - Solution: Empty space between head tag and body tag was causing this
 ---
 
 ## Deployment
@@ -226,6 +235,12 @@ The footer has links to social media accounts, at the moment linking to my accou
 * Hero image sourced from [Unsplash](https://unsplash.com/photos/nKCtkaW4JU4)
 * Membership image sourced from [Unsplash](https://unsplash.com/photos/dXrAfc9fDuI)
 * Contact Form background image sourced rom [Unsplash](https://unsplash.com/photos/6KkYYqTEDwQ)
+* Gallery images from Unsplash: 
+    * [image2](https://unsplash.com/photos/YJdCZba0TYE)
+    * [Image4](https://unsplash.com/photos/k1KCiRaDQhs)
+    * [Image5](https://unsplash.com/photos/ZARfCYDaVg0)
+    * [image7](https://unsplash.com/photos/YmqWafQKuRY)
+    * [Image8](https://unsplash.com/photos/DFtjXYd5Pto)
 
 ##### Code Snippets
 
@@ -237,6 +252,10 @@ The footer has links to social media accounts, at the moment linking to my accou
   * Code for Footer section taken from "My resume" bootstrap mini project and "Love running" and adapted to own project
   * Code for Membership section from "Love Running" lessons and adapted to own project
   * Code for Contact Form from "Love Running" Lessons and adapted to own project
+
+
+* ###### [Start Bootstrap](https://startbootstrap.com/snippets/thumbnail-gallery)
+    * Code for Responsive gallery taken and adapted to own project.
 
 
 

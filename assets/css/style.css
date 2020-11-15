@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     border:0;
+    /*set the global size to 10px for easy rem calculations*/
+    font-size: 10px;
 }
 
 
@@ -9,30 +11,20 @@ body {
     font-family: "Exo", sans-serif;
     text-align: center;
 }
-
+p {
+    font-size: 1.6rem;
+}
 hr {
     display: none;
 }
-
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
     
-    
-}
-
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
 }
-
-/*callout*/
-
+/*callout idea is based on Whiskey drop and Love running projects*/
 .callout-container {
     height: 100vh;
     background: url("../images/yoga.jpg") no-repeat center center fixed; 
@@ -40,31 +32,25 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display:flex;
     align-items: center;
     justify-content: center;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards; 
 }
-
 @keyframes hero-zoom {
     from{
-        transform: scale(0.9);
-    }
-    to{
         transform: scale(1);
     }
+    to{
+        transform: scale(1.1);
+    }
 }
-
 .membership-container {
     padding:0;
 }
-
 /*Navbar*/
-
 .navalert-container {
     position: absolute;
     top: 0;
@@ -72,71 +58,53 @@ hr {
     padding-left: 0;
     padding-right: 0;
 }
-
 .navbar {
     margin-bottom: 0;
     border: 0;
     width:100%;
-    background-color: rgba(0, 0, 0, 0.01);
+    background-color: rgba(0, 0, 0, .01);
     z-index: 1;
 }
-
 .navbar-light .navbar-brand {
     color: rgba(9,21,64,.9);
 }
-
 .navbar-light .navbar-nav .nav-link {
     color: rgba(9,21,64,1);
-    letter-spacing: 4px;
+    letter-spacing: .4rem;
 }
-
 .navbar-brand {
     font-size: 180%;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
-
 .nav-item{
     color: #091540;
 }
-
-
 .navbar .navbar-toggler {
     border: 0;
 }
-
-
-
-
 /*Jumbotron*/
-
 .jumbotron {
     background-color: transparent;
 }
-
 .jumbotron-header {
     color: #091540;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
-
 .jumbotron p {
     color: #40798C;
     font-weight: bold;
 }
-
 /*Buttons*/
-
 .btn--cta{
-    border-radius: 25px;
-    width: 160px;
+    border-radius: 2.5rem;
+    width: 16rem;
 }
-
 .btn--blue {
     color: white;
     background-color: #091540;
     border-color: #091540;
 }
-
 .btn--blue:hover,
 .btn--blue:active,
 .btn--blue:focus,
@@ -145,16 +113,18 @@ hr {
     background-color: #40798C;
     border-color: #40798C;
 }
-
 .btn-light {
     color: #fff;
     background-color: transparent;
     border-color: #fff;
 }
 
+/*Services*/
+.Services {
+    margin-top: 1.5rem;
+}
 
 /*Membership offers*/
-
 #membership {
     background-image: url(../images/membership.jpg);
     background-repeat: no-repeat;
@@ -163,147 +133,114 @@ hr {
     width: 100%;
     overflow: hidden;
 }
-
 #membership div {
+    clear: both;
+    border: 1px solid white;
     color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, .6);
     width: 32.80%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
+    height: 20rem;
+    padding: 1rem 0 0 1rem;
     text-align: center;
-    margin: 4px;
+    display: inline-table;
+    padding-left: 1px;
 }
-
 /*Membership section taken from my resume project and adapted to my project*/
-
 .bg-color-services {
     background-color: #fff;
-
 }
-
-
 /*Footer*/
 /*Footer section taken from love running project and from myresume bootstrap mini project*/
-
 footer {
   background-color: #091540;
   color: #fafafa;
-  margin-top: 150px;
+  margin-top: 10rem;
 }
-
 .social-network {
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
 }
-
 .social-network li {
   display: inline;
 }
-
 .social-network i {
-  font-size: 30px;
+  font-size: 3rem;
   margin: 1%;
   padding: 5%;
   color: #fafafa;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
 }
-
 .social-network i:hover {
     color: #40798C;
 }
 
-.gmap_canvas {
-    padding-bottom: 15px;
-}
-
-
-
-
-
 /*Contact Form*/
-
 .form-section {
     clear: both;
     background: url("../images/contact.jpg");
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 100rem;
 }
-
 .signup-form {
-  margin-top: 150px;
+  margin-top: 15rem;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  max-width: 600px;
+  background-color: rgba(0, 0, 0, .5);
+  max-width: 60rem;
   position: absolute;
   left: 10%;
   right: 10%;
-  padding: 30px;
+  padding: 3rem;
 }
-
 .signup-form > h2 {
   color: #fafafa;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
-
 .text-input {
   background: transparent;
   color: #fafafa;
   width: 100%;
   height: 25px;
-  margin:5px 0 20px;
+  margin:.5rem 0 2rem;
   border: 1px solid #fafafa;
-  border-radius: 2px;
+  border-radius: .2rem;
 }
-
 .text-input:hover{
   border-color: #40798C;
 }
-
 .join-button {
-  margin-top: 50px;
-  border-radius: 12px;
-  padding: 15px 32px 15px 32px;
+  margin-top: 5rem;
+  border-radius: 1.2rem;
+  padding: 1.5rem 3.2rem 1.5rem 3.2rem;
   text-align: center;
   font-size: 100%;
 }
-
 .join-button:hover{
   background-color: #40798C;
 }
-
 .text {
-    margin-top: 15px;
+    margin-top: 1.5rem;
     text-align: left;
 }
-
 #textarea {
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 125px;
-    margin:5px 0 20px;
+    height: 12.5rem;
+    margin:.5rem 0 2rem;
     border: 1px solid #fafafa;
-    border-radius: 2px;
+    border-radius: .2rem;
 }
-
 #textarea:hover {
     border-color: #40798C;
 }
 
-/*Media query*/
+/*Images based on Love running project with adaption to my own project*/
 
-@media screen and (max-width: 1393px){
-    #membership div{
-        width: 100%;
-        clear: both;
-        height: 150px;
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-color: #fff;
-        padding: 0;
-    }
+
+.images{
+    margin-top: 12rem;
 }

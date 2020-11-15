@@ -9,27 +9,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
-
     <body>
-    <!--navbar structure taken from whiskey drop webpage from Code Institute Lessons-->
+    <!-- navbar structure taken from whiskey drop webpage from Code Institute Lessons-->
+    <header>
         <div class="container-fluid navalert-container">
-            <nav class="navbar navbar-light  navbar-expand-sm">
+            <nav class="navbar navbar-light  navbar-expand-lg">
                 <a class="navbar-brand text-uppercase" href="index.html">The Mind Gym</a>
 
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Tooglenavigation">
-                <span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+                </button>
                 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
                         <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
-                
             </nav>
         </div>
-    <!--------------------------------------------Callout structure taken from whiskey drop webpage from Code Institute Lessons-->
+    </header>
+    <!-- /Navbar-->
+    <!--    Callout structure taken from whiskey drop webpage from Code Institute Lessons-->
         <div class="container-fluid callout-container"> 
                 <!-- Callout -->
             <div class="row">
@@ -42,9 +44,9 @@
                 </div>
             </div>
         </div>
-    <!--------------------------------------------/callout -->
-
-    <!--------------------------------------------Services Provided section taken based on Whiskey drop page on Bootstrap 4 module-->
+    <!-- /callout -->
+​
+    <!-- Services Provided section taken based on Whiskey drop page on Bootstrap 4 module-->
         <section class="Services">
             <div class="row">
                 <div class="col-12 my-5">
@@ -75,40 +77,40 @@
                 </div>
             </div>
         </section>
-    <!-----------------------------------------------------------------/Services Provided-->
-
-    <!----------------------------------------------- Membership options taken example from love running project but adapted to own project-->
+    <!-- /Services Provided-->
+​
+    <!-- Membership options taken example from love running project but adapted to own project-->
         <hr>
-
+​
         <div class="row">
             <div class="col-12 my-5">
                 <h2>Membership Options</h2>
             </div>
         </div>
         <section id="membership">    
-            <div>
+            <div class="col-12 col-lg-4">
                 <h2>1 Month Membership</h2>
                 <h4>€ 29,99</h4>
                 <h5>Limited number of classes</h5>
                 <button class="btn btn-sm btn-light" data-toggle="modal" data-target="#signUpModal">Sign-up</button>
             </div>
-            <div>
+            <div class="col-12 col-lg-4">
                 <h2>3 Months Membership</h2>
                 <h4>€ 75,99</h4>
                 <h5>Unlimited classes</h5>
                 <button class="btn btn-sm btn-light" data-toggle="modal" data-target="#signUpModal">Sign-up</button>
             </div>
-            <div>
+            <div class="col-12 col-lg-4">
                 <h2>12 Months Membership</h2>
                 <h4>€ 199,99</h4>
                 <h5>Unlimited classes + 2 months free</h5>
                 <button class="btn btn-sm btn-light" data-toggle="modal" data-target="#signUpModal">Sign-up</button>
             </div>
         </section>
-
-    <!--------------------------------------------------- /Membership options -->
-
-    <!--------------------------------------------------- Modal taken from Bootstrap Components page -->
+​
+    <!-- /Membership options -->
+​
+    <!-- Modal taken from Bootstrap Components page -->
         <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -122,7 +124,7 @@
                         <form>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
@@ -138,10 +140,10 @@
                 </div>
             </div>
         </div>
-
-    <!--------------------------------------------------- /Modal taken from Bootstrap Components page -->       
-
-    <!---------------------------------------------------- Footer taken from Love running website project -->
+​
+    <!-- /Modal taken from Bootstrap Components page -->       
+​
+    <!-- Footer taken from Love running website project -->
         <footer class="container-fluid">
             <div class="row">
                 <div class="col-12 my-5">
@@ -149,38 +151,30 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-5">
                     <h5>Address</h5>
                     <p> 1 Military Rd Ballybrack, Dublin, CO. Dublin</p>
                     <p>Zip Code: D06 AA01</p>
                     <p>Phone Number: (01)2824872</p>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <div class="mapouter">
-                        <div class="gmap_canvas">
-                            <iframe width="300" height="120" id="gmap_canvas" src="https://maps.google.com/maps?q=1%20Military%20Rd%20Ballybrack%2C%20Dublin&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
+               
+                <div class="col-12 col-lg-5">
                     <h5>Social Media</h5>
                     <ul class="list-inline social-network">
-                        <li class="list-inline-item"><a href="https:\\www.facebook.com/" target="_blank"> <i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="https:\\www.twitter.com/" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="https:\\www.youtube.com/" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="https:\\www.instagram.com/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.twitter.com/" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
                     </ul> 
                 </div>
             </div>
         </footer>
-    <!------------------------------------- /Footer -->
-
-
-
-    <!-------------------------------------------------------Bootstrap Scripts-->           
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- /Footer -->
+​
+    <!-- Bootstrap Scripts-->           
+​
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     </body>
 </html>
