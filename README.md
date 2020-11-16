@@ -177,6 +177,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 * Tested clicking Logo, redirect to index.html page
 * Tested Sign-up buttons on membership, all displaying the modal selected
 * Tested modal in all devices, all adjusting to the device.
+* Tested required fields on Modal Form, all fields required
 * Tested all external links, all opening in new tab
 * CSS was put through a [CSS Autoprefixer](https://autoprefixer.github.io/) and the changes were added to the website
 
@@ -201,9 +202,10 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 ###### Devices Used
     * Android phone - Chrome browser
+    * Iphone 7/8/X
     * Macbook Pro 13" - Safari Browser
     * Ipad - Safari
-    * Lenovo Windows Laptop - Chrome and Microsoft Edge
+    * Lenovo Windows Laptop - Chrome, Microsoft Edge and Mozzila Firefox
 
 ###### Bugs found
     * Membership section not displaying information horizontally
@@ -212,7 +214,12 @@ The footer has links to social media accounts, at the moment linking to my accou
     * Found that on resolution lower than 320px a white bar appears on the right side, do not consider this as a issue as very low number of devices have this screen size.
     * Found that on Navbar if class Active displayed on the li the github pages wouldn't target the support pages
     * White bar on the top of index page on any screens, readjusted Keyframes to transform from 1 to 1.1 and not .9 to 1.
-    *
+    * When adjusting one of the classes on the contact us page, modal fields where also affected, creating individual class for the contact us page, solved
+
+###### User experience Testing
+    * Sent the link via Messenger and Whatsapp to various friends and family to wide device type testing found that tere was a typo on the footer, corrected.
+    * Contact us dropdown not displaying the full sentence, adjusted width so that it's not 100% but a specific measure, solved the issue.
+    * Dropdown options not visible, changed background color from transparent to #091540
 
 ###### [W3C Markup Validator](https://validator.w3.org/)
 * "The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment" - Solution: was using to many hyphens on the comments
@@ -283,8 +290,10 @@ The footer has links to social media accounts, at the moment linking to my accou
     * Code for resolution of align the text on radio buttons 
 
 * ###### [Slack](https://slack.com/intl/en-gb/)
+    * Guidance on creating a custom 404 error page from Karina Finegan and Anthony O'Brien - [Here](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1598280091096500)
 
-  * Guidance on creating a custom 404 error page from Karina Finegan and Anthony O'Brien - [Here](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1598280091096500)
+* ###### [Bootsrap 4.5.3](https://getbootstrap.com/docs/4.5/components/forms/#custom-forms)
+    * Bootstrap form taken from Forms components section and adpated to own project
 
 ##### Other References
 

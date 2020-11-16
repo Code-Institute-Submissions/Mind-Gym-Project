@@ -173,9 +173,9 @@ hr {
     padding: 1rem 0 0 1rem;
     text-align: center;
     display: inline-table;
-    padding-left: 1px;
-    
+    padding-left: 1px; 
 }
+
 
 /*Footer*/
 /*Footer section taken from love running project and from myresume bootstrap mini project*/
@@ -266,6 +266,42 @@ footer {
 }
 #textarea:hover {
     border-color: #40798C;
+}
+
+/*custom form taken from Bootstrap components and adapted to project*/
+
+.form-group-edit {
+    margin-right: 37rem;
+    margin-bottom: 1rem;
+}
+
+.custom-select-edit {
+    display: inline-block;
+    width: 18rem;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    vertical-align: middle;
+    background: #091540;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.custom-select:hover {
+    border-color: #40798C
+}
+
+button, select {
+    text-transform: none;
+    background-color: #091540;
+    color: #fff;
+    font-family: 'Exo',sans-serif;
 }
 
 /*Images page code taken from Start Bootsrap and adpated to own project*/

@@ -46,22 +46,16 @@
                 <label for="email">Email Address</label>
                 <input class="text-input form-control" type="email" id="email" name="email_address" required>
             </div>
-            <div>
-                <input type="radio" id="one" name="reason" value="one" required>
-                <label for="one">1 month Subscription</label>
+            <div class="form-group-edit">
+                <select class="custom-select-edit" required>
+                    <option selected>Please select your type of query</option>
+                    <option value="1">1 month Subscription</option>
+                    <option value="2">3 months Subscription</option>
+                    <option value="3">12 months Subscription</option>
+                    <option value="4">General Query</option>
+                </select>
             </div>
-            <div>
-                <input type="radio" id="three" name="reason" value="three" required>
-                <label for="three">3 months Subscription</label>
-            </div>
-            <div>
-                <input type="radio" id="twelve" name="reason" value="twelve" required>
-                <label for="twelve">12 months Subscription</label>
-            </div>
-            <div>  
-                <input type="radio" id="general" name="reason" value="general" required>
-                <label for="general">General Query</label>
-            </div>
+            
             <div class="text">
                 <label for="textarea">Please describe your query</label>
                 <textarea id="textarea" name="text_area" rows="3" cols="50" required>
@@ -83,7 +77,7 @@
                 <div class="col-12 col-lg-5">
                     <h5>Address</h5>
                     <p> 1 Military Rd Ballybrack, Dublin, CO. Dublin</p>
-                    <p>Zip Code: D06 AA01</p>
+                    <p>Eir Code: D06 AA01</p>
                     <p>Phone Number: (01)2824872</p>
                 </div>
                

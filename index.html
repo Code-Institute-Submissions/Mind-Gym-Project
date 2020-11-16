@@ -110,7 +110,7 @@
 ​
     <!-- /Membership options -->
 ​
-    <!-- Modal taken from Bootstrap Components page -->
+    <!-- Modal taken from Bootstrap 4.5.3 Components page -->
         <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -124,15 +124,30 @@
                         <form>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Password">
+                                <input type="password" class="form-control" id="password" placeholder="Password" required>
                             </div>
                             <div class="form-group">
                                 <label for="repeatPassword">Repeat Password</label>
-                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Select Your membership type</label>
+                                <select class="form-control" id="exampleFormControlSelect1" required>
+                                    <option>1 Month Membership</option>
+                                    <option>3 Months Membership</option>
+                                    <option>12 Months Membership</option>
+                                    <option>Yoga Individual Lesson</option>
+                                    <option>Pilates Individual Lesson</option>
+                                    <option>Mindfulness Individual Lesson</option>
+                                </select>
+                            </div>
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                <label class="custom-control-label" for="customSwitch1">Sign-up for Newsletter and Promotions</label>
                             </div>
                             <button type="submit" class="btn btn--blue">Submit</button>
                         </form>
@@ -154,7 +169,7 @@
                 <div class="col-12 col-lg-5">
                     <h5>Address</h5>
                     <p> 1 Military Rd Ballybrack, Dublin, CO. Dublin</p>
-                    <p>Zip Code: D06 AA01</p>
+                    <p>Eir Code: D06 AA01</p>
                     <p>Phone Number: (01)2824872</p>
                 </div>
                
