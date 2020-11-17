@@ -38,7 +38,7 @@ ambient that people will find at the gym.
 ##### Customer Goals
 
 * Have a safe space to relax
-* have evidence that it is a reliable space
+* Have evidence that it is a reliable space
 * Check space reviews
 * Verify gym space by the Gallery
 * Focusing on Mobile devices so that easily acessible
@@ -151,7 +151,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 ##### Frameworks, Libraries & Programs Used
 
 * [Git](https://git-scm.com/)
-* [Bootsrap] (https://getbootstrap.com/)
+* [Bootsrap](https://getbootstrap.com/)
 * [GitHub](https://github.com/)
 * [Balsamiq](https://balsamiq.com/)
 * [Google Fonts](https://fonts.google.com/)
@@ -225,6 +225,8 @@ The footer has links to social media accounts, at the moment linking to my accou
 * "The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment" - Solution: was using to many hyphens on the comments
 * "Start tag body seen but an element of the same type was already open." - Solution: Empty space between head tag and body tag was causing this
 * Using Iframes tag was also causing an error as it was showing that it was deprecated solution, removed Google maps extention completely from footer.
+* "Error: The first child option element of a select element with a required attribute, and without a multiple attribute, and without a size attribute whose value is greater than 1, must have either an empty value attribute, or must have no text content. Consider either adding a placeholder option label, or adding a size attribute with a value equal to the number of option elements." removed required tag
+
 ---
 
 ###### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -293,7 +295,7 @@ The footer has links to social media accounts, at the moment linking to my accou
     * Guidance on creating a custom 404 error page from Karina Finegan and Anthony O'Brien - [Here](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1598280091096500)
 
 * ###### [Bootsrap 4.5.3](https://getbootstrap.com/docs/4.5/components/forms/#custom-forms)
-    * Bootstrap form taken from Forms components section and adpated to own project
+    * Bootstrap form taken from Forms components section and adapted to own project
 
 ##### Other References
 
@@ -301,7 +303,7 @@ The footer has links to social media accounts, at the moment linking to my accou
     * Fake Address Generator used to generate a ficticius address for the gym
 
 * ###### [Mayo Clinc](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/pilates-for-beginners/art-20047673)
-    *Description of Pilates class
+    * Description of Pilates class
 
 * ###### [Yoga journal](https://www.yogajournal.com/meditation/yoga-questions-answered)
     * Description of Yoga
