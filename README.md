@@ -137,6 +137,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 * Added Services section as it was not originally intended to be present, after making a more analytical analysis of the type of content the webpage should offer.
 * Added background image to the Membership section to be more visually appealing.
 * Added modal sign-up to all sections in the home page
+* Changed Radio options on contact us form to a custom select so that it will have better layout on mobile.
 ---
 
 ## Technologies Used
@@ -180,7 +181,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 * Tested required fields on Modal Form, all fields required
 * Tested all external links, all opening in new tab
 * CSS was put through a [CSS Autoprefixer](https://autoprefixer.github.io/) and the changes were added to the website
-
+* Tested custom dropdown on contact us form, all displaying correctly in mobile and opening a dropdown in web browser
 
 
 ##### Validation
@@ -296,6 +297,7 @@ The footer has links to social media accounts, at the moment linking to my accou
 
 * ###### [Bootsrap 4.5.3](https://getbootstrap.com/docs/4.5/components/forms/#custom-forms)
     * Bootstrap form taken from Forms components section and adapted to own project
+    * Modal taken from Bootsrap components also
 
 ##### Other References
 
